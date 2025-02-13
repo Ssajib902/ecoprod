@@ -1,18 +1,13 @@
 import React from "react";
 import {
-  FaBook,
   FaCalendar,
   FaHistory,
   FaHome,
-  FaList,
-  FaPhone,
   FaShoppingCart,
-  FaStar,
   FaThList,
   FaUsers,
   FaUtensils,
 } from "react-icons/fa";
-import { FaListCheck } from "react-icons/fa6";
 import { NavLink, Outlet } from "react-router-dom";
 import useCart from "../Hooks/useCart";
 import useAdmin from "../Hooks/useAdmin";
