@@ -9,6 +9,25 @@ import slide_image_4 from "/src/assets/home/04.jpg";
 import slide_image_5 from "/src/assets/home/05.jpg";
 import slide_image_6 from "/src/assets/home/06.jpg";
 import slide_image_7 from "/src/assets/home/07.jpg";
+
+import fever from "../../../assets/home/fever.jpg"
+import gastric from "../../../assets/home/gastric.jpg"
+import ointment from "../../../assets/home/ointment.jpg"
+import eyeCare from "../../../assets/home/eyeCare.jpg"
+
+import utensilsImg from "../../../assets/home/utensils.jpg"
+import spoonsImg from "../../../assets/home/spoons.jpg"
+import bowlsImg from "../../../assets/home/bowls.jpg"
+import trayImg from "../../../assets/home/tray.jpg"
+
+import muttonImg from "../../../assets/home/meat.jpg"
+import chickenImg from "../../../assets/home/chicken.png"
+
+import tshirtImg from "../../../assets/home/tShirts.jpg"
+import shirtImg from "../../../assets/home/shirts.jpg"
+import womensImg from "../../../assets/home/womens.jpg"
+import babyImg from "../../../assets/home/baby.jpg"
+
 import { Link } from "react-router-dom";
 
 const HomeCategory = () => {
@@ -70,7 +89,7 @@ const HomeCategory = () => {
             <div className="grid grid-cols-2 gap-2">
               <div className="flex flex-col items-center">
                 <img
-                  src="/src/assets/home/fever.jpg"
+                  src={fever}
                   alt="Fever & Pain"
                   className="w-full h-full border object-cover rounded-lg mb-2"
                 />
@@ -78,7 +97,7 @@ const HomeCategory = () => {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="/src/assets/home/gastric.jpg"
+                  src={gastric}
                   alt="Gastric"
                   className="w-full h-full border object-cover rounded-lg mb-2"
                 />
@@ -86,7 +105,7 @@ const HomeCategory = () => {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="/src/assets/home/ointment.jpg"
+                  src={ointment}
                   alt="Ointments"
                   className="w-full h-full border object-cover rounded-lg mb-2"
                 />
@@ -94,7 +113,7 @@ const HomeCategory = () => {
               </div>
               <div className="flex flex-col items-center">
                 <img
-                  src="/src/assets/home/eyeCare.jpg"
+                  src={eyeCare}
                   alt="Eye Care"
                   className="w-full h-full border object-cover rounded-lg mb-2"
                 />
@@ -114,7 +133,7 @@ const HomeCategory = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/utensils.jpg"
+                    src={utensilsImg}
                     alt="Utensils"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -122,7 +141,7 @@ const HomeCategory = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/spoons.jpg"
+                    src={spoonsImg}
                     alt="Spoons"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -130,7 +149,7 @@ const HomeCategory = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/bowls.jpg"
+                    src={bowlsImg}
                     alt="Bowls"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -138,7 +157,7 @@ const HomeCategory = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/tray.jpg"
+                    src={trayImg}
                     alt="Tray"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -159,7 +178,7 @@ const HomeCategory = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/meat.jpg"
+                    src={muttonImg}
                     alt="Mutton"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -167,7 +186,7 @@ const HomeCategory = () => {
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/chicken.png"
+                    src={chickenImg}
                     alt="Chicken"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
@@ -188,24 +207,24 @@ const HomeCategory = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col items-center">
                   <img
-                    src="/src/assets/home/utensils.jpg"
-                    alt="Utensils"
+                    src={tshirtImg}
+                    alt="t-shirt"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
                   <p className="text-sm text-center">T-Shirts</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="https://i.ibb.co.com/31VhpgQ/Shirts.jpg"
-                    alt="Spoons"
+                    src={shirtImg}
+                    alt="shirt image"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
                   <p className="text-sm text-center">Shirts</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <img
-                    src="https://i.ibb.co.com/RpC7ccM/womens.jpg"
-                    alt="Bowls"
+                    src={womensImg}
+                    alt="Womens clothes"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
                   <p className="text-sm text-center">Womens</p>
@@ -213,8 +232,8 @@ const HomeCategory = () => {
                 <div className="flex flex-col items-center">
                   <img
 
-                    src="https://i.ibb.co.com/xGTPMTD/baby.jpg"
-                    alt="Tray"
+                    src={babyImg}
+                    alt="Baby Clothes"
                     className="w-full h-full border object-cover rounded-lg mb-2"
                   />
                   <p className="text-sm text-center">Baby</p>
