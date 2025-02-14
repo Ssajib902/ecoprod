@@ -10,9 +10,7 @@ import slide3 from "../../../assets/home/slide3.JPG";
 import slide4 from "../../../assets/home/slide4.JPG";
 import slide5 from "../../../assets/home/slide5.JPG";
 import slide6 from "../../../assets/home/slide6.JPG";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { Link } from "react-router-dom";
-import useMenu from "../../../Hooks/useMenu";
 
 const Category = () => {
 

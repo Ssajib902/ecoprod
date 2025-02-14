@@ -31,10 +31,6 @@ const Dashboard = () => {
             <div className="divider"></div>
             {isAdmin ? (
               <>
-                {/* <li>
-                                    <NavLink to="/dashboard/adminHome"><FaHome /> Admin Home</NavLink>
-                                </li> */}
-
                 <li>
                   <NavLink to="/dashboard/allusers">
                     <FaUsers className="text-blue-500" /> All Users
