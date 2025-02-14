@@ -75,7 +75,7 @@ export const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <ProductDetails />,
-        loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`)
+        loader: ({ params }) => fetch(`https://ecoprod.onrender.com/menu/${params.id}`)
       }
     ]
   },
@@ -129,7 +129,7 @@ export const router = createBrowserRouter([
       {
         path: "updateItem/:id",
         element: <AdminRoute><UpdateItem /></AdminRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/menu/${params.id}`),
+        loader: ({ params }) => fetch(`https://ecoprod.onrender.com/menu/${params.id}`),
       },
       {
         path: "allusers",

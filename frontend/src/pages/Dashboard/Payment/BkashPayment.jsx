@@ -22,7 +22,7 @@ const BkashPayment = () => {
       setLoading(true);
       setError('');
 
-      const response = await axios.post('http://localhost:5000/bkash/payment', {
+      const response = await axios.post('https://ecoprod.onrender.com/bkash/payment', {
         paymentID: paymentID,
         amount: amount,
         currency: currency,
