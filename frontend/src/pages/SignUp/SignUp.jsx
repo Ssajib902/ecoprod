@@ -53,11 +53,10 @@ const SignUp = () => {
         .catch((error) => console.log(error));
     });
   };
-  // console.log(watch("example"));
   return (
     <>
       <Helmet>
-        <title>Bistro Boss | Sign Up</title>
+        <title>EcoProd | Sign Up</title>
       </Helmet>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
